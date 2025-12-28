@@ -14,7 +14,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/$(SDL_PATH)/include  # SDL
 
 LOCAL_SHARED_LIBRARIES := SDL2
 
-LOCAL_LDLIBS :=-lSDL2 -lGLESv1_CM -lGLESv2 -lOpenSLES -llog -landroid  # SDL
+LOCAL_LDLIBS := -lSDL2 -lGLESv1_CM -lGLESv2 -lOpenSLES -llog -landroid  # SDL
 
 APP_ABI := armeabi-v7a arm64-v8a
 APP_PLATFORM := android-21
